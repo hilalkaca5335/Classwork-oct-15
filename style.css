@@ -1,0 +1,16 @@
+body {
+    background-color: pink;
+}
+ 
+h1 {
+    text-align: right;
+}
+
+.hilal1 {
+    background-color: teal;
+}
+
+#hilal2 {
+    background-color: brown;
+    color: chocolate;
+}
