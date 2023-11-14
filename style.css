@@ -11,14 +11,14 @@ h1 {
     color: chocolate;
 }
   body {
-      background-color: blue;
+      background-color: #80BEE6;
             font-family: Italic;
             text-align: center;
             margin: 25px;
         }
     iframe {
-            width: 55px;
-            height: 55px;
+            width: 80%;
+            height: 300px;
             border: 2px solid #333;
         }
     .custom-div {
