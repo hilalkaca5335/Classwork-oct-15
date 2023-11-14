@@ -16,11 +16,6 @@ h1 {
             text-align: center;
             margin: 25px;
         }
-    .main-content {
-            margin: 20px;
-            padding: 20px;
-            border: 2px solid #333;
-        }
     iframe {
             width: 80%;
             height: 300px;
@@ -43,4 +38,3 @@ h1 {
         color:blueviolet;
         background-color: antiquewhite;
     }
- 
