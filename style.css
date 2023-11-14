@@ -1,9 +1,5 @@
-body {
-    background-color: pink;
-}
- 
 h1 {
-    text-align: right;
+    text-align: center;
 }
 
 .hilal1 {
@@ -14,3 +10,37 @@ h1 {
     background-color: brown;
     color: chocolate;
 }
+  body {
+      background-color: blue;
+            font-family: Italic;
+            text-align: center;
+            margin: 25px;
+        }
+    .main-content {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #333;
+        }
+    iframe {
+            width: 80%;
+            height: 300px;
+            border: 2px solid #333;
+        }
+    .custom-div {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 20px;
+        }
+    .custom-span {
+            color: #007bff;
+            font-weight: bold;
+        }
+    h2 {
+        color:teal;
+        text-align: center;
+    }
+    .hello {
+        color:blueviolet;
+        background-color: antiquewhite;
+    }
+ 
