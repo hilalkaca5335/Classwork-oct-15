@@ -3,6 +3,39 @@
 <head>
     <title>Home</title>
 <style>
+    /* Pseudo-classes */
+a:hover {
+    color: #ff6600; /* Change link color on hover */
+}
+
+input:focus {
+    border: 2px solid #4CAF50; /* Add a border to focused input elements */
+}
+
+li:nth-child(odd) {
+    background-color: #f2f2f2; /* Style odd list items differently */
+}
+
+button:disabled {
+    opacity: 0.5; /* Apply opacity to disabled buttons */
+}
+
+/* Pseudo-elements */
+p::first-line {
+    font-weight: bold; /* Style the first line of paragraphs in bold */
+}
+
+h2::before {
+    content: "🔥 "; /* Add emoji before every h2 element */
+}
+
+ul li::marker {
+    color: #008000; /* Style the list marker color in unordered lists */
+}
+
+blockquote::after {
+    content: " - Someone"; /* Add content after every blockquote */
+}
      /* Class Selector */
         .nav-bar {
             background-color: #333;
