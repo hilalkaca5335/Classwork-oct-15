@@ -47,8 +47,19 @@ h1 {
         }
 
         /* Element Selector */
-        div.content {
-            padding: 20px;
+        .content {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db;
+            margin: 20px; /* Margin for spacing between divs */
+            padding: 20px; /* Padding inside each div */
+            display: inline-block; /* Display divs in a row */
+            transition: background-color 0.3s; /* Smooth transition for background color */
+            overflow: hidden; /* Hide overflowing content */
+           
+        }
+.content:hover{
+            background-color: #e74c3c;
         }
 
         /* Descendant Selector */
@@ -57,6 +68,15 @@ h1 {
             color: white;
             text-align: center;
             padding: 10px;
+        }
+.footer img {
+            width: 100%; /* Make the image fill the entire div */
+            height: auto; /* Maintain the image's aspect ratio */
+            filter: grayscale(50%) brightness(120%); /* Apply image filters */
+            transition: filter 0.3s; /* Smooth transition for filters */
+        }
+     .footer:hover img {
+            filter: none;
         }
 .hidden-element {
     visibility: hidden;
