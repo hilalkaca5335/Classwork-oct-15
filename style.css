@@ -58,3 +58,12 @@ h1 {
             text-align: center;
             padding: 10px;
         }
+.hidden-element {
+    visibility: hidden;
+}
+.transparent-element {
+    opacity: 0.5;
+}
+.no-display-element {
+    display: none;
+}
